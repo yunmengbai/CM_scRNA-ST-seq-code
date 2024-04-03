@@ -1,21 +1,21 @@
-#The spatiotemporal transcriptional profiling of murine brain during cerebral malaria progression and artesunate treatment
+The spatiotemporal transcriptional profiling of murine brain during cerebral malaria progression and artesunate treatment
 ---
 This repository contains code from data analysis of scRNA-seq and ST-seq split into 2 parts:
 
 - scRNA-seq analysis
 - ST-seq analysis
 
-##Citation
+Citation
 ---
 The code in this repository pertains to publication:
 **The spatiotemporal transcriptional profiling of murine brain during cerebral malaria progression and artesunate treatment**
 Jiayun Chen, Yunmeng Bai, Xueling He, Lina Chen, Yin Kwan Wong, Chen Wang, Peng Gao, Guangqing Chen, Liting Xu, Jichao Sun, Chengchao Xu,Jigang Wang
 
-##Data
+Data
 ---
 The raw single cell RNA sequencing and spatial transcriptome sequencing data files were deposited in the Genome Sequence Archive (GSA) under accession number **CRA007721** and **CRA007982**, respectively. 
 
-##Code description
+Code description
 ---
 ###scRNA-seq_analysis_part
 **1.scRNA dataset process and annotation.R** | Code contains functions for preprocessing and annotation steps of scRNA-seq dataset: Quality control and SCTransform of each sample; Multiple samples integration; Dimension reduction and UMAP visulations; Cell type annotation and stastics; Cell type specific DEG analysis; GO enrichment of DEGs in each cell type.
